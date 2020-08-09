@@ -9,10 +9,10 @@ class AuthController extends Controller
     {
         return
         [
-            "NIS" => "3103118101",
+            "NIS" =>  3103118101,
             "Name" => "Nisrina Thifal Khairunnisa",
             "Gender" => "Perempuan",
-            "Phone" => "085714591232",
+            "Phone" =>  +6285714591232,
             "Class" => "XII RPL 3",
 
         ];
