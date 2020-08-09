@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return "Kelas => XII RPL 3";
 });
+
+Route::get('/me', 'AuthController@me');
